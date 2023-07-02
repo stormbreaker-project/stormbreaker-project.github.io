@@ -1,5 +1,4 @@
-# .readthedocs.yaml
-# Read the Docs configuration file
+# Read the Docs configuration file for Sphix projects
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
 # Required
@@ -12,8 +11,4 @@ build:
     python: "3.10"
 
 sphinx:
-   configuration: conf.py
-
-     # Optionally build your docs in additional formats such as PDF and ePub
- formats:
-    - html
+   configuration: source/conf.py
